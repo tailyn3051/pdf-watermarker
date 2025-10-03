@@ -1,0 +1,5 @@
+{
+  "name": "PDF Watermarker ver-0.1 DEPLOY",
+  "description": "An application to add image watermarks to PDF files and export the pages as images.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Watermarker ver-0.1</title>
+  <meta name="description" content="An application to add image watermarks to PDF files and export the pages as images.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%236200ee' d='M6 2c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6H6zm8 7h-2V4.5L16.5 9H14z'/%3E%3Cpath fill='%23ffffff' opacity='0.7' d='M9 14h6v2H9v-2zm0 3h6v2H9v-2z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- pdf.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script>pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js`;</script>
+  <!-- jszip -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <!-- pdf-lib -->
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel" data-type="module" src="index.tsx"></script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
